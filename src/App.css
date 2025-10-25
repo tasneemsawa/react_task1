@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+    --mainColor: rgb(44 62 80);
+    --secondaryColor: rgb(26 188 156);
+    --mainFont: "Montserrat", sans-serif;
+    --secondaryFont: "Lato", sans-serif;
+}
+
+.bg-mainColor {
+    background-color: var(--mainColor);
+}
+
+.bg-secondaryColor {
+    background-color: var(--secondaryColor);
+}
+
+
+body {
+    font-family: var(--mainFont);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none
+}
+
+a,
+button,
+img,
+input,
+span {
+    transition: all 0.3s ease 0s;
+}
