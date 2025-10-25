@@ -12,13 +12,16 @@
 .bg-mainColor {
     background-color: var(--mainColor);
 }
+
 .color-mainColor {
     color: var(--mainColor);
 }
+
 .bg-secondaryColor {
     background-color: var(--secondaryColor);
 }
-.ff-secondaryFont{
+
+.ff-secondaryFont {
     font-family: var(--secondaryFont);
 }
 
@@ -42,6 +45,12 @@ input,
 span {
     transition: all 0.3s ease 0s;
 }
+
 .fs48 {
     font-size: 48px;
+}
+
+.btn:hover {
+    color: var(--maincolor) !important;
+    background-color: white !important;
 }

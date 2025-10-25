@@ -1,0 +1,29 @@
+.fs48 {
+    font-size: 48 px;
+}
+
+.about {
+
+    padding: 80px 0;
+}
+
+.aboutHr {
+    width: 100px;
+    border: 2px solid white;
+    margin: 0 20px;
+    opacity: 1
+}
+
+.btnText {
+    font-size: 20px;
+    font-family: var(--secondaryFont);
+    margin: 2px;
+}
+
+.btnSvg {
+    fill: white
+}
+
+.btnsvg:hover svg {
+    fill: var(--maincolor) !important;
+}
