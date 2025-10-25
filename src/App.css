@@ -12,19 +12,24 @@
 .bg-mainColor {
     background-color: var(--mainColor);
 }
-
-.color-mainColor {
-    color: var(--mainColor);
-}
-
 .bg-secondaryColor {
     background-color: var(--secondaryColor);
 }
+.color-mainColor {
+    color: var(--mainColor);
+}
+.color-secondaryColor {
+    color: var(--secondaryColor);
+}
+
+
 
 .ff-secondaryFont {
     font-family: var(--secondaryFont);
 }
-
+.fs-20{
+    font-size: 20px;
+}
 body {
     font-family: var(--mainFont);
 
@@ -53,4 +58,8 @@ span {
 .btn:hover {
     color: var(--maincolor) !important;
     background-color: white !important;
+}
+.circleBtn{
+    width: 50px;
+    height: 50px;
 }
