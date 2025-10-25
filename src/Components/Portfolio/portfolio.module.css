@@ -1,0 +1,14 @@
+.fs48 {
+    font-size: 48 px;
+}
+
+.portfolio {
+
+    padding: 80px 0;
+}
+.portfolioHr {
+    width: 100px;
+    border: 2px solid var(--mainColor);
+    margin: 0 20px;
+    opacity: 1
+}

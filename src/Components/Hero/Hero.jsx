@@ -3,7 +3,7 @@ import person from '../../assets/mainPhotos/person.webp'
 function Hero() {
   return (
     <header
-      className={`"d-flex flex-column align-items-center justify-content-center text-center bg-secondaryColor ${style.hero}`}>
+      className={`d-flex flex-column align-items-center justify-content-center text-center bg-secondaryColor ${style.hero}`}>
       <img src={person} alt="person" className={` mb-5  ${style.heroImg}`} />
       <h1 className={`fw-bold  text-white ${style.fs64}`}>START BOOTSTRAP</h1>
       <div
@@ -17,7 +17,7 @@ function Hero() {
         <hr className={`divider-light ${style.heroHr}`} />
 
       </div>
-      <h2 className={`fw-bold  text-white fs-4 ff-secondaryFont mt-4`}>Graphic Artist - Web Designer - Illustrator</h2>
+      <h3 className={`fw-bold  text-white fs-4 ff-secondaryFont mt-4`}>Graphic Artist - Web Designer - Illustrator</h3>
 
     </header>
 
