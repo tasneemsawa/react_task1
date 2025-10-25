@@ -1,0 +1,20 @@
+.fs64 {
+    font-size: 64px;
+}
+
+.hero {
+    max-height: "100vh";
+    padding: 100px 0 100px 0px;
+}
+
+.heroImg {
+    width: 250px;
+    height: 250px;
+}
+
+.heroHr {
+    width: 100px;
+    border: 2px solid white;
+    margin: 0 20px;
+    opacity: 1
+}

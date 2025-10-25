@@ -16,7 +16,9 @@
 .bg-secondaryColor {
     background-color: var(--secondaryColor);
 }
-
+.ff-secondaryFont{
+    font-family: var(--secondaryFont);
+}
 
 body {
     font-family: var(--mainFont);
