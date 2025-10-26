@@ -1,0 +1,30 @@
+.fs48 {
+    font-size: 48 px;
+}
+
+.contactMe {
+
+    padding: 80px 0;
+}
+
+.contactMeHr {
+    width: 100px;
+    border: 2px solid var(--mainColor);
+    margin: 0 20px;
+    opacity: 1
+}
+
+.formInput {
+    height: 50px;
+}
+
+.formBtn {
+    width: 100px;
+    height: 66px;
+    text-align: center;
+
+}
+
+.formBtn:disabled {
+    background-color: var(--secondaryColor);
+}
