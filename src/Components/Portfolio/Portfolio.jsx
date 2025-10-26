@@ -22,26 +22,26 @@ function Portfolio() {
 
       <div className='row justify-content-center mt-5'>
         <div className='col-md-6 col-lg-4 mb-5'>
-          <img class="img-fluid rounded-3" src={cabin} alt="cabin"></img>
+          <img className="img-fluid rounded-3" src={cabin} alt="cabin"></img>
         </div>
         <div className='col-md-6 col-lg-4 mb-5'>
-          <img class="img-fluid rounded-3" src={cake} alt="cake"></img>
+          <img className="img-fluid rounded-3" src={cake} alt="cake"></img>
         </div>
         <div className='col-md-6 col-lg-4 mb-5'>
-          <img class="img-fluid rounded-3" src={circus} alt="circus"></img>
-        </div>
-
-
-        <div className='col-md-6 col-lg-4 mb-5'>
-          <img class="img-fluid rounded-3" src={game} alt="circus"></img>
+          <img className="img-fluid rounded-3" src={circus} alt="circus"></img>
         </div>
 
+
         <div className='col-md-6 col-lg-4 mb-5'>
-          <img class="img-fluid rounded-3" src={safe} alt="circus"></img>
+          <img className="img-fluid rounded-3" src={game} alt="circus"></img>
         </div>
 
         <div className='col-md-6 col-lg-4 mb-5'>
-          <img class="img-fluid rounded-3" src={submarine} alt="circus"></img>
+          <img className="img-fluid rounded-3" src={safe} alt="circus"></img>
+        </div>
+
+        <div className='col-md-6 col-lg-4 mb-5'>
+          <img className="img-fluid rounded-3" src={submarine} alt="circus"></img>
         </div>
       </div>
     </section>

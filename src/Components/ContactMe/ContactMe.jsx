@@ -15,19 +15,19 @@ function ContactMe() {
       </div>
 
       <form id="contactForm" className='row w-50  mt-5'>
-        <div class="form-floating mb-5">
+        <div className="form-floating mb-5">
           <input type="text" className={`form-control border-0 border-bottom rounded-0 fs-4  shadow-none ${style.formInput}`} id="name" placeholder="Enter your name..." />
           <label className='fs-4 fw-medium' htmlFor="name">Full name</label>
         </div>
-        <div class="form-floating mb-5">
+        <div className="form-floating mb-5">
           <input className={`form-control border-0 border-bottom rounded-0 fs-4    shadow-none ${style.formInput}`} id="email" type="email" placeholder="name@example.com" />
           <label className='fs-4 fw-medium' htmlFor="email">Email address</label>
         </div>
-        <div class="form-floating mb-5">
+        <div className="form-floating mb-5">
           <input className={`form-control border-0 border-bottom rounded-0 fs-4    shadow-none ${style.formInput}`} id="phone" type="tel" placeholder="(123) 456-7890" />
           <label className='fs-4 fw-medium' htmlFor="phone">Phone number</label>
         </div>
-        <div class="form-floating mb-5">
+        <div className="form-floating mb-5">
           <textarea rows="4" className={`form-control border-0 border-bottom rounded-0 fs-4   shadow-none ${style.formInput}`} id="message" type="text" placeholder="Enter your message here..."  >
           </textarea>
           <label className='fs-4 fw-medium' htmlFor="message">Message</label>
