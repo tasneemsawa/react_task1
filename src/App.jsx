@@ -8,16 +8,26 @@ import ContactMe from './Components/ContactMe/ContactMe.jsx'
 
 
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Hero />
-      <Portfolio/>
-      <About/>
-      <ContactMe/>
+      <Routes>
+        <Route path='/' element={
+          <>
+            <Hero />
+            <Portfolio />
+            <About />
+            <ContactMe />
+          </>
+        }></Route>
+        <Route path='/portfolio' element={<Portfolio />}></Route>
+        <Route path='/contactMe' element={<ContactMe />}></Route>
+        <Route path='/about' element={<About />}></Route>
+      </Routes>
       <Footer />
     </>
   )

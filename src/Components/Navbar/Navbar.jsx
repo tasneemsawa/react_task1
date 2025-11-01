@@ -1,12 +1,12 @@
 import style from './navbar.module.css'
-
+import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg py-4 bg-mainColor">
       <div className="container">
-        <a className="navbar-brand logo fw-bold fs-3 text-white " href="#">
+        <Link className="navbar-brand logo fw-bold fs-3 text-white " to="/">
           START BOOTSTRAP
-        </a>
+        </Link>
         <button className="navbar-toggler text-center text-white bg-secondaryColor px-3 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="fs-14">MENU </span>
 
@@ -14,20 +14,26 @@ function Navbar() {
 
         <div className="collapse navbar-collapse justify-content-end me-2" id="navbarNav">
           <ul className="navbar-nav d-flex gap-2 align-items-center">
+          <li className="nav-item mx-2">
+              <Link className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links} `} to="/">
+                Home
+              </Link>
+            </li>
+
             <li className="nav-item mx-2">
-              <a className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links} `} href="#">
+              <Link className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links} `} to="/portfolio">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-2">
-              <a className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links}`} href="#">
+              <Link className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links}`} to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-2 ">
-              <a className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links}`} href="#">
+              <Link className={`nav-link fw-bold text-uppercase text-white fs-6 ${style.links}`} to="/contactMe">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
